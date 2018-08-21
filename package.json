@@ -1,0 +1,17 @@
+{
+  "name": "es6_with_babel",
+  "version": "1.0.0",
+  "description": "using babel with node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel --presets es2015 -d lib/ src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
+
